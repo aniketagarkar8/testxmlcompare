@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>XML Files Demo</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  h1 { color: #2C3E50; }
+  h2 { color: #34495E; }
+  pre { background: #ECF0F1; padding: 15px; border: 1px solid #BDC3C7; overflow: auto; max-height: 400px; }
+  .container { display: flex; gap: 30px; }
+  .xml-block { flex: 1; }
+</style>
+</head>
+<body>
+
+<h1>XML Files Demo Viewer</h1>
+<div class="container">
+  <div class="xml-block">
+    <h2>File: testdemo1.xml</h2>
+    <pre>&lt;?xml version = &#x27;1.0&#x27; encoding = &#x27;utf-8&#x27;?&gt;
+&lt;root&gt;
+	&lt;employees&gt;
+		&lt;employee&gt;
+			&lt;personNumber&gt;100&lt;/personNumber&gt;
+			&lt;firstName&gt;Jane&lt;/firstName&gt;
+			&lt;lastName&gt;Doe&lt;/lastName&gt;
+			&lt;NID&gt;123456789&lt;/NID&gt;
+			&lt;email&gt;a.b@c.d&lt;/email&gt;
+			&lt;phone&gt;987654321&lt;/phone&gt;
+			&lt;wages&gt;
+				&lt;wage&gt;
+					&lt;ElementName&gt;Basic&lt;/ElementName&gt;
+					&lt;Amount&gt;100&lt;/Amount&gt;
+					&lt;EffectiveStartDate&gt;2025/1/1&lt;/EffectiveStartDate&gt;
+					&lt;EffectiveEndDate&gt;&lt;/EffectiveEndDate&gt;
+				&lt;/wage&gt;
+				&lt;wage&gt;
+					&lt;ElementName&gt;Allowance&lt;/ElementName&gt;
+					&lt;Amount&gt;200&lt;/Amount&gt;
+					&lt;EffectiveStartDate&gt;2025/1/1&lt;/EffectiveStartDate&gt;
+					&lt;EffectiveEndDate&gt;&lt;/EffectiveEndDate&gt;
+				&lt;/wage&gt;
+			&lt;/wages&gt;
+		&lt;/employee&gt;
+		&lt;employee&gt;
+			&lt;personNumber&gt;200&lt;/personNumber&gt;
+			&lt;firstName&gt;James&lt;/firstName&gt;
+			&lt;lastName&gt;Bond&lt;/lastName&gt;
+			&lt;NID&gt;678954321&lt;/NID&gt;
+			&lt;email&gt;e.f@g.h&lt;/email&gt;
+			&lt;phone&gt;543167890&lt;/phone&gt;
+			&lt;wages&gt;
+				&lt;wage&gt;
+					&lt;ElementName&gt;Basic&lt;/ElementName&gt;
+					&lt;Amount&gt;100&lt;/Amount&gt;
+					&lt;EffectiveStartDate&gt;2025/1/1&lt;/EffectiveStartDate&gt;
+					&lt;EffectiveEndDate&gt;&lt;/EffectiveEndDate&gt;
+				&lt;/wage&gt;
+				&lt;wage&gt;
+					&lt;ElementName&gt;Allowance&lt;/ElementName&gt;
+					&lt;Amount&gt;200&lt;/Amount&gt;
+					&lt;EffectiveStartDate&gt;2025/1/1&lt;/EffectiveStartDate&gt;
+					&lt;EffectiveEndDate&gt;&lt;/EffectiveEndDate&gt;
+				&lt;/wage&gt;
+			&lt;/wages&gt;
+		&lt;/employee&gt;
+	&lt;/employees&gt;
+&lt;/root&gt;
+    </pre>
+  </div>
+  <div class="xml-block">
+    <h2>File: testdemo2.xml</h2>
+    <pre>&lt;?xml version = &#x27;1.0&#x27; encoding = &#x27;utf-8&#x27;?&gt;
+&lt;root&gt;
+	&lt;employees&gt;
+		&lt;employee&gt;
+			&lt;personNumber&gt;100&lt;/personNumber&gt;
+			&lt;firstName&gt;Jane&lt;/firstName&gt;
+			&lt;lastName&gt;Doe&lt;/lastName&gt;
+			&lt;NID&gt;123456789&lt;/NID&gt;
+			&lt;email&gt;aa.b@c.d&lt;/email&gt;
+			&lt;phone&gt;987659874321&lt;/phone&gt;
+			&lt;wages&gt;
+				&lt;wage&gt;
+					&lt;ElementName&gt;Basic&lt;/ElementName&gt;
+					&lt;Amount&gt;600&lt;/Amount&gt;
+					&lt;EffectiveStartDate&gt;2025/1/1&lt;/EffectiveStartDate&gt;
+					&lt;EffectiveEndDate&gt;&lt;/EffectiveEndDate&gt;
+				&lt;/wage&gt;
+				&lt;wage&gt;
+					&lt;ElementName&gt;Allowance&lt;/ElementName&gt;
+					&lt;Amount&gt;200&lt;/Amount&gt;
+					&lt;EffectiveStartDate&gt;2027/1/1&lt;/EffectiveStartDate&gt;
+					&lt;EffectiveEndDate&gt;&lt;/EffectiveEndDate&gt;
+				&lt;/wage&gt;
+			&lt;/wages&gt;
+		&lt;/employee&gt;
+		&lt;employee&gt;
+			&lt;personNumber&gt;200&lt;/personNumber&gt;
+			&lt;firstName&gt;James&lt;/firstName&gt;
+			&lt;lastName&gt;Bond&lt;/lastName&gt;
+			&lt;NID&gt;678954321&lt;/NID&gt;
+			&lt;email&gt;ee.f@g.h&lt;/email&gt;
+			&lt;phone&gt;543161237890&lt;/phone&gt;
+			&lt;wages&gt;
+				&lt;wage&gt;
+					&lt;ElementName&gt;Basic&lt;/ElementName&gt;
+					&lt;Amount&gt;190&lt;/Amount&gt;
+					&lt;EffectiveStartDate&gt;2025/1/1&lt;/EffectiveStartDate&gt;
+					&lt;EffectiveEndDate&gt;&lt;/EffectiveEndDate&gt;
+				&lt;/wage&gt;
+				&lt;wage&gt;
+					&lt;ElementName&gt;Allowance&lt;/ElementName&gt;
+					&lt;Amount&gt;200&lt;/Amount&gt;
+					&lt;EffectiveStartDate&gt;2026/1/1&lt;/EffectiveStartDate&gt;
+					&lt;EffectiveEndDate&gt;&lt;/EffectiveEndDate&gt;
+				&lt;/wage&gt;
+			&lt;/wages&gt;
+		&lt;/employee&gt;
+	&lt;/employees&gt;
+&lt;/root&gt;
+    </pre>
+  </div>
+</div>
+
+</body>
+</html>
